@@ -1,53 +1,129 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
 
+/* Contenedor de encabezado*/
 .header {
-    background-color: grey;
-    height: auto;
-    padding: 10px;
-    border-bottom: 2px solid black;
+    
+    background: var(--fondo-color-primario);
+    height:auto;
+    border-bottom: 2px solid var(--fondo-color-secundario);
 }
-
+/* contenedor de  nav y logotipo*/
 .contenedor-logotipo {
+    
+    color: var(--text-color-primario);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
-
+/* contenedor del svg y nombre*/
 .logotipo {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px
 }
+/* svg del logotipo*/
+.logotipo > svg{
+    
+    width:30px;
+    height:30px;
+}
+.logotipo > svg path{
+    fill: var(--text-color-primario);
+    width: 40px;
+    height: 40px;
+    
+}
+/*nombre del logotipo */
+.Logotipo-h1{
+    font-size: 40px;
+}
 
+/*Navbar contenedor*/
 .links-navdar {
     display: flex;
+    flex-direction: row;
     list-style: none;
     align-items: end;
+    margin-right: 30px;
 }
 
+/* cada li de la lista del navbar*/
 .links-navdar>li {
-    margin-left: 15px;
-    font-size: 11px
-}
-
-a{
-    text-decoration: none
-}
-
-.contenedor-de-boton{
+    height: 50px;
+    width: 50px; 
     align-items: center;
     justify-content: center;
-
+    margin-left: 25px;
+    font-size: 11px;
+    
 }
-
+/* enlaces que contiene el svg y el nombre del link ambos sirven de enlace*/
+a{  
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-primario);
+    text-decoration: none;
+    gap: 5PX;
+}
+/*svgs  que estan dento del navbar dentro de los <a>*/
+a > svg{
+    width:30px;
+    height:30px;
+    filter: drop-shadow( 1px 1px  var(--text-color-tercerio));
+}
+a > svg path{
+    fill: var(--text-color-secundario);
+}
+/*si un  <a> tiene adentro h2 este mismo no es visible */
+a > h2{
+    visibility: hidden;
+    font-size: 20px;
+    
+}
+/*al pasar por encima de un <a> y adentro haya un h2 este mismo se vuelve visible */
+a:hover >h2{
+    visibility: visible;
+}
+/*al pasar por encima de un <a> y adentro haya un svg aplica un filto que da sombra al svg*/
+a:hover > svg{
+    filter: drop-shadow( 3px 1px 1px var(--text-color-tercerio));
+    scale: 1.3;
+}
+/*boton de inicio en tu cuenta dentro del navbar*/
 .navbar-boton-de-inicio{
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(35, 56, 194, 0.998);
-    color: rgba(196, 209, 220, 0.712);
+    padding: 5px;
+    background-color: var(--fondo-color-primario);
+    color: var(--text-color-primario);
+    border-radius: 8px;
+    font-weight: 700;
+}
+/* al pasar por encima ':hover' boton de inicio se activa una sombra en el texto y la caja*/
+.navbar-boton-de-inicio:hover{
+text-shadow: 2px 2px 2px var(--text-color-secundario);
+box-shadow: 2px 2px var(--text-color-secundario);;
+}
+/*Prueba modo oscuro o claro*/
 
+.boton-inicio {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-inicio.luz {
+    background-color: var(--color-primario);
+    color: var(--color-primario);
+}
+
+.boton-inicio.oscuro {
+    background-color: var(--color-primario-osc);
+    color: var(--color-primario-osc);
+}
+
+.boton-inicio:hover {
+    background-color: var(--color-secundario);
 }

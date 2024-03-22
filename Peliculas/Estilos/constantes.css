@@ -1,0 +1,20 @@
+:root {
+    /* colores primarios de la pagina en modo claro*/
+    --color-primario: rgb(194, 227, 245);
+    --color-secundario:  rgb(252, 191, 73 );
+    --color-tercerio:  rgb(238, 174, 233);
+    
+
+    /* colores de textos de la pagina claro */
+    --text-color-primario:  rgb(8, 24, 119);
+    --text-color-secundario:  rgb(244, 140, 6 );
+    --text-color-tercerio:  rgb(157, 2, 8 );
+    
+   
+
+    /* colores de fondos de la pagina claro */
+    --fondo-color-primario: rgb(255, 255, 255);
+    --fondo-color-secundario:  #70d6ff;
+    --fondo-color-tercerio:  #ff70a6;
+    
+}

@@ -1,0 +1,17 @@
+:root{
+    /* colores primarios de la pagina en modo oscuro*/
+--color-primario:  rgb(38, 70, 83 );
+--color-secundario:  rgb(233, 196, 106 );
+--color-tercerio:  rgb(231, 111, 81 );
+
+ /* colores de textos de la pagina oscuro */
+ --text-color-primario:  rgb(232, 93, 4 );
+ --text-color-secundario:  rgb(255, 186, 8 );
+ --text-color-tercerio:  rgb(252, 247, 240 );
+
+/* colores de fondos de la pagina oscuro */
+--fondo-color-primario:  #101c24;
+--fondo-color-secundario:  #240046;
+--fondo-color-tercerio:  #4f000b;
+
+}
