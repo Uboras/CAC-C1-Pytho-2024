@@ -94,16 +94,18 @@ a:hover > svg{
 }
 /*boton de inicio en tu cuenta dentro del navbar*/
 .navbar-boton-de-inicio{
-    padding: 5px;
-    background-color: var(--fondo-color-primario);
+    
+    text-align: center;
+    font-size: 1.1rem;
     color: var(--text-color-primario);
     border-radius: 8px;
     font-weight: 700;
+
 }
 /* al pasar por encima ':hover' boton de inicio se activa una sombra en el texto y la caja*/
 .navbar-boton-de-inicio:hover{
 text-shadow: 2px 2px 2px var(--text-color-secundario);
-box-shadow: 2px 2px var(--text-color-secundario);;
+
 }
 /*Prueba modo oscuro o claro*/
 
