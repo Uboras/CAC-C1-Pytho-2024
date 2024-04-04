@@ -1,0 +1,31 @@
+.logotipo_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color-secundario);
+    border-top: 2px solid var(--color-secundario);
+    align-items: center;
+    padding: 10px;
+    background-color: var(--fondo-color-secundario);
+}
+
+.contenedor_logotipo_footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logotipo_footer > h1{
+    font-size: 30px;
+}
+
+.logotipo_footer_svg > path{
+    fill: var(--color-blanco);
+}
+
+.iconos_footer{
+
+}
+
+.contenedor-footer{
+
+}

@@ -1,14 +1,12 @@
 
 /* Contenedor de encabezado*/
 .header {
-    
     background: var(--fondo-color-primario);
     height:auto;
     border-bottom: 2px solid var(--fondo-color-secundario);
 }
 /* contenedor de  nav y logotipo*/
 .contenedor-logotipo {
-    
     color: var(--text-color-primario);
     padding: 20px;
     display: flex;
@@ -23,7 +21,6 @@
 }
 /* svg del logotipo*/
 .logotipo > svg{
-    
     width:30px;
     height:30px;
 }
@@ -31,7 +28,6 @@
     fill: var(--text-color-primario);
     width: 40px;
     height: 40px;
-    
 }
 /*nombre del logotipo */
 .Logotipo-h1{
@@ -81,7 +77,6 @@ a > svg path{
 a > h2{
     visibility: hidden;
     font-size: 20px;
-    
 }
 /*al pasar por encima de un <a> y adentro haya un h2 este mismo se vuelve visible */
 a:hover >h2{
@@ -94,7 +89,6 @@ a:hover > svg{
 }
 /*boton de inicio en tu cuenta dentro del navbar*/
 .navbar-boton-de-inicio{
-    
     text-align: center;
     font-size: 1.1rem;
     color: var(--text-color-primario);
@@ -104,8 +98,7 @@ a:hover > svg{
 }
 /* al pasar por encima ':hover' boton de inicio se activa una sombra en el texto y la caja*/
 .navbar-boton-de-inicio:hover{
-text-shadow: 2px 2px 2px var(--text-color-secundario);
-
+    text-shadow: 2px 2px 2px var(--text-color-secundario);
 }
 /*Prueba modo oscuro o claro*/
 
