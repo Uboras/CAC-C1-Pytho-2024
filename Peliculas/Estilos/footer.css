@@ -1,3 +1,8 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
 .logotipo_footer{
     display: flex;
     flex-direction: row;
@@ -6,26 +11,62 @@
     border-top: 2px solid var(--color-secundario);
     align-items: center;
     padding: 10px;
-    background-color: var(--fondo-color-secundario);
+    background: linear-gradient(white, var(--fondo-color-secundario));
 }
-
+.contenedor_logotipo_footer > svg path{
+    fill: var(--color-blanco);
+}
 .contenedor_logotipo_footer{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.logotipo_footer > h1{
+.contenedor_logotipo_footer > h1{
     font-size: 30px;
+    color: var(--color-blanco);
 }
 
 .logotipo_footer_svg > path{
     fill: var(--color-blanco);
 }
-
-.iconos_footer{
+.iconos_footer > svg path{
+    fill: var(--color-blanco);
+}
+/* revisar el color del punto*/
+.logotipo_footer_svg > polygon{
+    fill: var(--color-blanco);
 
 }
 
-.contenedor-footer{
+.iconos_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 40% ;
+    gap: 10px;
+    }
 
+.contenedor-footer_listas{
+    width: 100%;
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--fondo-color-secundario);
+}
+.footer_listas{
+    list-style: none;
+
+}
+.footer_listas > li {
+    color: var(--color-blanco)
+}
+.footer_listas > li > a{
+    align-items: start;
+    color: var(--color-blanco);
+}
+.footer_listas > li:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--color-tercerio);
 }

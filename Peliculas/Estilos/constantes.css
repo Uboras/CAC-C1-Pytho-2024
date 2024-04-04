@@ -2,8 +2,8 @@
     /* colores primarios de la pagina en modo claro*/
     --color-primario: rgb(194, 227, 245);
     --color-secundario:  rgb(252, 191, 73 );
-    --color-tercerio:  rgb(238, 174, 233);
-    --color-blanco: rgb(255,255,255);
+    --color-tercerio:  rgb(73, 34, 70);
+    --color-blanco: rgb(0, 0, 0);
     
 
     /* colores de textos de la pagina claro */

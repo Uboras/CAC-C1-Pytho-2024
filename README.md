@@ -8,9 +8,10 @@
 ### Se Realizó el  armado del encabezado 
 ## -Generado los links para las diferentes páginas
 ## -Gestor de color claro u oscuro segun corresponda
+## -Realizamos el footer de las paginas con sus styles.
 
 
-# -Proximamente se realizara el footer y luego el armado del main de cada pagina . 
+#- armado del main de cada pagina . 
 # -Total de paginas aproximadas 12.
 # -Se sigue el proyecto desde figma con un armado previo de la cantidad 
 # y distribucion de las paginas
