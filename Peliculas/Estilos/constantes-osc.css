@@ -1,9 +1,10 @@
 :root{
     /* colores primarios de la pagina en modo oscuro*/
---color-primario:  rgb(38, 70, 83 );
+--color-primario:   #b6a2ec;
 --color-secundario:  rgb(233, 196, 106 );
 --color-tercerio:  rgb(231, 111, 81 );
---color-blanco: rgb(255,255,255);
+--color-negro: rgb(0, 0, 0);
+--color-blanco: rgb(255, 255, 255);
 
  /* colores de textos de la pagina oscuro */
  --text-color-primario:  rgb(232, 93, 4 );
@@ -12,7 +13,7 @@
 
 /* colores de fondos de la pagina oscuro */
 --fondo-color-primario:  #101c24;
---fondo-color-secundario:  #240046;
+--fondo-color-secundario:  #833dc4;
 --fondo-color-tercerio:  #4f000b;
 
 }

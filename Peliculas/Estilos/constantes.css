@@ -1,9 +1,11 @@
 :root {
     /* colores primarios de la pagina en modo claro*/
-    --color-primario: rgb(194, 227, 245);
-    --color-secundario:  rgb(252, 191, 73 );
+    --color-primario: rgb(19, 20, 20);
+    --color-secundario:  rgb(250, 176, 29);
     --color-tercerio:  rgb(73, 34, 70);
-    --color-blanco: rgb(0, 0, 0);
+    
+    --color-negro: rgb(0, 0, 0);
+    --color-blanco: rgb(255 ,255 ,255);
     
 
     /* colores de textos de la pagina claro */
@@ -14,8 +16,8 @@
    
 
     /* colores de fondos de la pagina claro */
-    --fondo-color-primario: rgb(255, 255, 255);
-    --fondo-color-secundario:  #70d6ff;
-    --fondo-color-tercerio:  #ff70a6;
+    --fondo-color-primario:  #97d2e9; 
+    --fondo-color-secundario:  #97d2e9; 
+    --fondo-color-tercerio:  #e0acc0;
     
 }
