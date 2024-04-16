@@ -1,20 +1,25 @@
 .login-container {
     display: flex;
-    width: 100%;
-    min-height: 64vh;
-    background: linear-gradient(to bottom, var(--color-blanco) 1%, var(--fondo-color-secundario) 10%, var(--fondo-color-secundario) 95%, var(--color-blanco) 100%);
-    justify-content: center;
-    padding: 30px;
-    box-shadow: 3px 3px 5px var(--color-blanco);
-    gap: 50px;
+    width: 650px;
+    margin: 20px auto;
+    min-height: 50vh;
+    justify-content: space-between;
+    border: 8px solid var(--fondo-color-primario);
+    padding-right: 1%;
 }
 
-.login-title > h1 {
-    margin-top: 30px;
+.login-title {
+    padding: 20px;
+    background-color: var(--fondo-color-primario);
+    width: 50%;
+    height: 1fr;
+}
+
+.login-title>h1 {
+    
     color: var(--text-color-primario);
     font-size: 4em;
-    text-shadow: 3px 3px 3wpx var(--color-blanco);
-    animation: move 1s ease forwards;
+
 }
 
 .login-container>h2 {
@@ -27,58 +32,94 @@
 
 .login-container_form>svg {
     fill: #ccc;
+    margin: auto;
+    width: 100%;
 
 
 }
 
 .login-container_form {
-    margin-top: 70px;
+    display: block;
+    margin: auto;
+    width: 100%;
     height: 100%;
-    width: 40%;
+    
+    
 }
-
+.form-login{
+width: 100%;
+}
 .form-group {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
     animation: move 1s ease forwards;
-
+    align-items: center;
+    justify-content: center             ;
 }
 
 .form-group input::placeholder {
     color: var(--color-negro);
-    font-size: 2em;
-    align-items: center;
-    justify-content: center;
+    font-size: 1.4em;
     padding: 5px;
 }
 
 .form-group>input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px auto;
+margin: 8px auto;
     opacity: 0;
-    width: 100%;
+    width: 90%;
     height: 3em;
-    padding: 10px;
-    border: 1px solid var(--color-negro);
     border-radius: 8px;
-
-    animation: move 1s ease forwards 1.7s;
+    animation: move 1s ease forwards 1.5s;
 }
 
 .form-group>button {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     opacity: 0;
-    margin: auto;
-    width: 100%;
+    margin: 8px auto;
+    width: 45%;
     padding: 10px;
-    background-color: var(--fondo-color-secundario);
+    background-color: var(--fondo-color-primario);
     color: var(--color-blanco);
-
     border: none;
     border-radius: 8px;
     cursor: pointer;
     animation: move 1s ease forwards 2.5s;
+}
+
+@media screen and (max-width: 650px) {
+    /*encabezado*/
+    .contenedor-logotipo{
+        display: block;
+    
+    }
+    .login-container {
+        display: block;
+        width: 90%;
+        justify-content: space-between;
+        padding: 0%;
+    }
+    .login-title{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+    .login-title>h1 {
+        color: var(--text-color-primario);
+        font-size: 3em;
+        align-items: center ;
+    
+        animation: move 1s ease forwards;
+    }
+
+    footer {
+        position: relative;
+    }
 }
 
 @keyframes move {
@@ -89,7 +130,7 @@
     }
 
     50% {
-        scale: 1.5;
+        scale: 1.1;
     }
 
     100% {

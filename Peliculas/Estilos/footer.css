@@ -11,7 +11,7 @@ footer{
     border-top: 2px solid var(--color-secundario);
     align-items: center;
     padding: 10px;
-    background: linear-gradient(white, var(--fondo-color-secundario));
+    background: linear-gradient(white, var(--fondo-color-primario));
 }
 .contenedor_logotipo_footer > svg path{
     fill: var(--color-blanco);
@@ -52,7 +52,7 @@ footer{
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: var(--fondo-color-secundario);
+    background-color: var(--fondo-color-primario);
 }
 .footer_listas{
     list-style: none;
