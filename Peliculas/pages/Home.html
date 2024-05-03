@@ -176,10 +176,79 @@
     </header>
 
     <main>
-      <h1>Home</h1>
+      <div class="slider">
+        <!--cantidad de imagenes del slider con nombres para poder recorrerlas-->
+        <div class="container">
+          <img src="../img/Promos/1.jpg" alt="" />
+          <img src="../img/Promos/2.jpg" alt="" />
+          <img src="../img/Promos/3.jpg" alt="" />
+          <img src="../img/Promos/4.jpg" alt="" />
+          <img src="../img/Promos/5.jpg" alt="" />
+          <img src="../img/Promos/6.jpg" alt="" />
+          <img src="../img/Promos/7.jpg" alt="" />
+          <img src="../img/Promos/8.jpg" alt="" />
+        </div>
+        <!-- controles para el movimiento del slider -->
+        <div class="controls">
+          <ul></ul>
+        </div>
+      </div>
+
+      <section id="filtros">
+        <!-- Aquí colocarías los filtros para las películas, como género, año, etc. -->
+
+        <!-- Puedes usar formularios o elementos de interfaz de usuario para seleccionar los filtros -->
+        <form>
+          <label for="genero">Género:</label>
+          <select id="genero">
+            <option value="accion">Acción</option>
+            <option value="comedia">Comedia</option>
+            <option value="drama">Drama</option>
+            <!-- Agrega más opciones según tus necesidades -->
+          </select>
+
+          <label for="anio">Año:</label>
+          <select id="anio">
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <!-- Agrega más opciones según tus necesidades -->
+          </select>
+
+          <!-- Puedes agregar más filtros según tus necesidades -->
+          <button type="submit">Aplicar Filtros</button>
+        </form>
+      </section>
+
+      <section id="resultado">
+        <!-- Aquí se mostrarían las películas que coinciden con los filtros seleccionados -->
+        <!-- Puedes usar un grid o una lista para mostrar las películas -->
+      </section>
+      <div class="slider-container-lateral">
+        <div class="slider-lateral">
+            <div class="slide-lateral"><img src="../img/Promos/1.jpg" alt="Slide 1"></div>
+            <div class="slide-lateral"><img src="../img/Promos/2.jpg" alt="Slide 2"></div>
+            <div class="slide-lateral"><img src="../img/Promos/3.jpg" alt="Slide 3"></div>
+            <div class="slide-lateral"><img src="../img/Promos/4.jpg" alt="Slide 4"></div>
+            <div class="slide-lateral"><img src="../img/Promos/5.jpg" alt="Slide 5"></div>
+            <div class="slide-lateral"><img src="../img/Promos/6.jpg" alt="Slide 6"></div>
+            <div class="slide-lateral"><img src="../img/Promos/7.jpg" alt="Slide 7"></div>
+            <div class="slide-lateral"><img src="../img/Promos/8.jpg" alt="Slide 8"></div>
+        </div>
+        <button class="button-lateral prev">&#10094;</button>
+        <button class="button-lateral next">&#10095;</button>
+    </div>
+    
+
+      <section class="peliculas accion">
+      </section>
+|     <section class="peliculas comedia">
+</section>
+|   |     <section class="peliculas drama">
+</section>
     </main>
 
-    <footer >
+    <footer>
       <div class="logotipo_footer">
         <div class="contenedor_logotipo_footer">
           <svg
@@ -326,7 +395,7 @@
           <li>Jeronimo Manabella</li>
         </ul>
         <ul class="footer_listas">
-            <li>Páginas</li>
+          <li>Páginas</li>
           <li><a href="./Home.html">Home</a></li>
           <li><a href="./popular.html">Popular</a></li>
           <li><a href="./about.html">Nosotros</a></li>
@@ -341,49 +410,8 @@
         </ul>
       </div>
     </footer>
-
-    <script>
-      const botonInicio = document.getElementById("boton-inicio");
-
-      // Supongamos que tienes una variable `modoOscuro` que indica si el modo oscuro está activado o no
-      let modoOscuro = false; // Cambia esto según el estado de tu aplicación
-      cambiarTextoBoton();
-
-      function cambiarModo() {
-        modoOscuro = !modoOscuro;
-        cambiarTextoBoton();
-        /* Si el modo oscuro está activado, 
-            agrega la hoja de estilos
-             del modo oscuro, de lo contrario, la quíta*/
-        if (modoOscuro) {
-          agregarHojaEstilos("../style-osc.css");
-        } else {
-          quitarHojaEstilos("../style-osc.css");
-        }
-      }
-      //cambia el nombre del boton (agregar un svg con un sol o una luna)
-      function cambiarTextoBoton() {
-        botonInicio.textContent = modoOscuro ? "Oscuro" : "claro";
-      }
-      //logica pra agregar la etiqueta link el nuevo oscuro
-      function agregarHojaEstilos(href) {
-        const hojaEstilos = document.createElement("link");
-        hojaEstilos.rel = "stylesheet";
-        hojaEstilos.href = href;
-        hojaEstilos.id = "hoja-estilos-oscuro";
-        document.head.appendChild(hojaEstilos);
-      }
-      //logica para quitar el estilo de hoja clara
-      function quitarHojaEstilos(href) {
-        const hojaEstilos = document.getElementById("hoja-estilos-oscuro");
-        if (hojaEstilos) {
-          hojaEstilos.remove();
-        }
-      }
-      //escucha el evento click y llama a la funcion cambiar modo que es la que agrega y quita hoja de estilos
-      botonInicio.addEventListener("click", function () {
-        cambiarModo();
-      });
-    </script>
+    <script src="../AccionesJs/slider-lateral.js" charset="utf-8"></script>
+    <script src="../AccionesJs/slider.js" charset="utf-8"></script>
+    <script src="../AccionesJs/darkmode.js" charset="utf-8"></script>
   </body>
 </html>
