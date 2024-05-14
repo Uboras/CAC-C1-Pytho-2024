@@ -4,3 +4,6 @@
     margin: 20px auto;
     background-color: aqua;
 }
+.main-home{
+    background: linear-gradient( var(--color-blanco) 1%, var(--fondo-color-primario)5%, var(--fondo-color-primario)95%, var(--color-blanco));
+}

@@ -2,9 +2,10 @@
 @import "./Estilos/constantes-osc.css";
 @import "./Estilos/footer.css";
 @import "./Estilos/LogIn.css";
-
-
-
+@import "./Estilos/slider.css";
+@import "./Estilos/home.css";
+@import "./Estilos/slider-lateral.css";
+@import "./Estilos/index.css";
 
 * {
     margin: 0;

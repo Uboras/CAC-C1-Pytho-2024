@@ -1,7 +1,7 @@
 
 /* Contenedor de encabezado*/
 .header {
-    background: var(--fondo-color-primario);
+    background: linear-gradient(var(--fondo-color-primario)80%, var(--color-blanco));
     height:auto;
     border-bottom: 2px solid var(--fondo-color-secundario);
 }

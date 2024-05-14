@@ -175,7 +175,7 @@
       </section>
     </header>
 
-    <main>
+    <main class="main-home">
       <div class="slider">
         <!--cantidad de imagenes del slider con nombres para poder recorrerlas-->
         <div class="container">
@@ -188,64 +188,19 @@
           <img src="../img/Promos/7.jpg" alt="" />
           <img src="../img/Promos/8.jpg" alt="" />
         </div>
-        <!-- controles para el movimiento del slider -->
+        <!-- controles para el movimiento del slider manejado con js. -->
         <div class="controls">
           <ul></ul>
         </div>
       </div>
-
-      <section id="filtros">
-        <!-- Aquí colocarías los filtros para las películas, como género, año, etc. -->
-
-        <!-- Puedes usar formularios o elementos de interfaz de usuario para seleccionar los filtros -->
-        <form>
-          <label for="genero">Género:</label>
-          <select id="genero">
-            <option value="accion">Acción</option>
-            <option value="comedia">Comedia</option>
-            <option value="drama">Drama</option>
-            <!-- Agrega más opciones según tus necesidades -->
-          </select>
-
-          <label for="anio">Año:</label>
-          <select id="anio">
-            <option value="2024">2024</option>
-            <option value="2023">2023</option>
-            <option value="2022">2022</option>
-            <!-- Agrega más opciones según tus necesidades -->
-          </select>
-
-          <!-- Puedes agregar más filtros según tus necesidades -->
-          <button type="submit">Aplicar Filtros</button>
-        </form>
-      </section>
-
-      <section id="resultado">
-        <!-- Aquí se mostrarían las películas que coinciden con los filtros seleccionados -->
-        <!-- Puedes usar un grid o una lista para mostrar las películas -->
-      </section>
-      <div class="slider-container-lateral">
-        <div class="slider-lateral">
-            <div class="slide-lateral"><img src="../img/Promos/1.jpg" alt="Slide 1"></div>
-            <div class="slide-lateral"><img src="../img/Promos/2.jpg" alt="Slide 2"></div>
-            <div class="slide-lateral"><img src="../img/Promos/3.jpg" alt="Slide 3"></div>
-            <div class="slide-lateral"><img src="../img/Promos/4.jpg" alt="Slide 4"></div>
-            <div class="slide-lateral"><img src="../img/Promos/5.jpg" alt="Slide 5"></div>
-            <div class="slide-lateral"><img src="../img/Promos/6.jpg" alt="Slide 6"></div>
-            <div class="slide-lateral"><img src="../img/Promos/7.jpg" alt="Slide 7"></div>
-            <div class="slide-lateral"><img src="../img/Promos/8.jpg" alt="Slide 8"></div>
-        </div>
-        <button class="button-lateral prev">&#10094;</button>
-        <button class="button-lateral next">&#10095;</button>
-    </div>
-    
-
+      <!--Peliculas por seccion-->
       <section class="peliculas accion">
+        <div class="peliculas-accion"></div>
       </section>
-|     <section class="peliculas comedia">
-</section>
-|   |     <section class="peliculas drama">
-</section>
+      |
+      <section class="peliculas-comedia"></section>
+      | |
+      <section class="peliculas-drama"></section>
     </main>
 
     <footer>
@@ -410,7 +365,6 @@
         </ul>
       </div>
     </footer>
-    <script src="../AccionesJs/slider-lateral.js" charset="utf-8"></script>
     <script src="../AccionesJs/slider.js" charset="utf-8"></script>
     <script src="../AccionesJs/darkmode.js" charset="utf-8"></script>
   </body>

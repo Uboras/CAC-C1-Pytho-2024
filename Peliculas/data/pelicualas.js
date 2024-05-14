@@ -26,5 +26,5 @@ const peliculas = [
     { titulo: "Untitled Pixar Film", año: 2024 },
     // Puedes agregar más películas si lo deseas
 ];
-
+document.getElementsByTagName("image").source ="";
 export default peliculas;

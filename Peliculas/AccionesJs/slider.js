@@ -12,7 +12,7 @@ class IndexForSiblings{
   
   class Slider{
     constructor(selector,movimiento=true){
-      //para mantener el this desde aca y hacer scoope
+      //para mantener el this desde aca
       this.move = this.move.bind(this);
       this.moveByButton = this.moveByButton.bind(this);
       //selecciona el selector que es enviado por argumentos para que pueda ser cualquier componente no solo slider
