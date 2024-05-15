@@ -1,36 +1,63 @@
 .main-index {
     width: 100%;
-    margin: 40px auto;
-    
+    margin: auto;
+    background: radial-gradient(var(--fondo-color-primario)30%, var(--color-blanco)80%);
 }
+.container-Banner {
+    width: 80%;
+    padding: 20px;
+}
+.banner{
+    background-color: var(--fondo-color-primario); 
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    margin: 10px auto;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px;
+}
+.banner1, .banner2, .banner3 {
 
-.container-banner {
+    height: 500px;
     width: 50%;
-    background: linear-gradient(var(--color-blanco) 1%, var(--fondo-color-primario)5%, var(--fondo-color-primario)95%, var(--color-blanco));
+    border: 2px solid var(--color-blanco);
+    box-shadow: 2px 2px 2px var(--color-negro);
+    border-radius: 10px;
+    background-image: url("../img/index/img-Banner/Banner1/CINEFLIX.jpg");
+    background-size:cover;
+    background-position: center;
 }
 
 .banner-inicio {
     width: 100%;
     text-align: center;
+    border: none;
 }
-
-.banner {
-    margin: 20px;
-    background: var(--fondo-color-secundario);
-    display: flex;
-    padding: 20px;
-    margin: auto;
-    border: 4px solid var(--color-negro);
-    justify-content: space-between;
+.textos{
+    width: 30%;
 }
-
-.banner>img {
-    height: 200px;
-
+.textos > p {
+    font-size: 30px;
 }
-
-.banner>h1 {
+.textos  > h1 {
+    height: fit-content;
+    padding: 5px;
+    color: rgb(224, 138, 25);
     text-align: start;
-    max-width: 50%;
-    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.8);
+    opacity: 0;
+    animation: 4s tarde 1s ease forwards;
+    
+}
+
+@keyframes tarde {
+    from{
+        scale: 1.2;
+    opacity: 0;}
+    to{opacity: 1;}
 }

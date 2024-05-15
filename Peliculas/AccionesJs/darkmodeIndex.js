@@ -11,9 +11,9 @@ function cambiarModo() {
       agrega la hoja de estilos
        del modo oscuro, de lo contrario, la quíta*/
   if (modoOscuro) {
-    agregarHojaEstilos("../Estilos/style-osc.css");
+    agregarHojaEstilos("./Estilos/style-osc.css");
   } else {
-    quitarHojaEstilos("../Estilos/style-osc.css");
+    quitarHojaEstilos("./Estilos/style-osc.css");
   }
 }
 //cambia el nombre del boton (agregar un svg con un sol o una luna)
