@@ -1,4 +1,4 @@
-const peliculas = [
+const peli = [
     { titulo: "Tenet", año: 2020 },
     { titulo: "Soul", año: 2020 },
     { titulo: "Wonder Woman 1984", año: 2020 },
@@ -26,5 +26,4 @@ const peliculas = [
     { titulo: "Untitled Pixar Film", año: 2024 },
     // Puedes agregar más películas si lo deseas
 ];
-document.getElementsByTagName("image").source ="";
-export default peliculas;
+
