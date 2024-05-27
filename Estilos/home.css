@@ -2,8 +2,46 @@
     height: 400px;
     width: 70%;
     margin: 20px auto;
-    background-color: aqua;
+    
 }
 .main-home{
-    background: linear-gradient( var(--color-blanco) 1%, var(--fondo-color-primario)5%, var(--fondo-color-primario)95%, var(--color-blanco));
+   min-height: 60vh;
 }
+
+
+.peliculas{
+height: fit-content;
+width: 80%;
+margin: 20px auto;
+
+}
+.peliculas > h1{
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(224, 138, 25);
+    text-align: start;
+    border-radius: 10px;
+    background-color: var(--color-negro);
+    margin: 20px auto;
+}
+.peliculasTodas{
+    height: fit-content;
+    width: 100%;
+
+}
+.contenedor-peliculas{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    justify-content: space-around;
+}
+.pelicula-imagen{
+    max-height: 500px ;
+    max-width: 200px;
+}
+.pelicula-title{
+    text-align: center;
+    color: var(--color-negro);
+    margin: 10px auto;
+
+}
+

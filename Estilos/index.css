@@ -1,14 +1,15 @@
 .main-index {
+    color: var(--color-blanco);
     width: 100%;
     margin: auto;
-    background: radial-gradient(var(--fondo-color-primario)30%, var(--color-blanco)80%);
+    
 }
 .container-Banner {
-    width: 80%;
+     width: 80%;
     padding: 20px;
 }
 .banner{
-    background-color: var(--fondo-color-primario); 
+   background-color: var(--fondo-color-primario); 
     width: 80%;
     margin: 20px;
     display: flex;
@@ -22,8 +23,8 @@
 }
 .banner1, .banner2, .banner3 {
 
-    height: 500px;
-    width: 50%;
+    height: 300px;
+    width: 500px;
     border: 2px solid var(--color-blanco);
     box-shadow: 2px 2px 2px var(--color-negro);
     border-radius: 10px;
@@ -44,8 +45,8 @@
     font-size: 30px;
 }
 .textos  > h1 {
-    height: fit-content;
-    padding: 5px;
+    
+    padding: 10px;
     color: rgb(224, 138, 25);
     text-align: start;
     border-radius: 10px;
@@ -54,10 +55,13 @@
     animation: 4s tarde 1s ease forwards;
     
 }
-
+#textoUsuario{
+font-weight: 900;
+}
 @keyframes tarde {
     from{
         scale: 1.2;
     opacity: 0;}
     to{opacity: 1;}
 }
+

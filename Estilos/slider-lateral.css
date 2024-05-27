@@ -1,7 +1,7 @@
 .slider-container-lateral {
     position: relative;
     margin: auto;
-    width: 70%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -13,9 +13,6 @@
 .slide-lateral {
     width: 200px;
     height: 200px;
-}
-.slide-lateral img{
-
 }
 .button-lateral {
     position: absolute;

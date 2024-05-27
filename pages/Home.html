@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Estilos/style.css" id="hoja-estilos" />
-    <title>Document</title>
+    <title>Cineflix-Home</title>
+    
   </head>
 
   <body>
@@ -184,23 +185,18 @@
           <img src="../img/Promos/3.jpg" alt="" />
           <img src="../img/Promos/4.jpg" alt="" />
           <img src="../img/Promos/5.jpg" alt="" />
-          <img src="../img/Promos/6.jpg" alt="" />
-          <img src="../img/Promos/7.jpg" alt="" />
-          <img src="../img/Promos/8.jpg" alt="" />
         </div>
         <!-- controles para el movimiento del slider manejado con js. -->
         <div class="controls">
           <ul></ul>
         </div>
       </div>
-      <!--Peliculas por seccion-->
-      <section class="peliculas accion">
-        <div class="peliculas-accion"></div>
+     
+      <!--Peliculas-->
+      <section class="peliculas">
+        <h1 class="title">Todas tus peliculas</h1>
+        <div class="peliculasTodas" id="peliculasTodas"></div>
       </section>
-      |
-      <section class="peliculas-comedia"></section>
-      | |
-      <section class="peliculas-drama"></section>
     </main>
 
     <footer>
@@ -365,6 +361,7 @@
         </ul>
       </div>
     </footer>
+    <script src="../AccionesJs/peliculas-fetch.js" charset="utf-8"></script>
     <script src="../AccionesJs/slider.js" charset="utf-8"></script>
     <script src="../AccionesJs/darkmode.js" charset="utf-8"></script>
   </body>

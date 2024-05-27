@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Estilos/style.css" id="hoja-estilos" />
-    <title>Document</title>
+    <title>Cineflix</title>
 </head>
 
 <body>
@@ -37,16 +37,18 @@
                 <div class="banner-inicio">
                     <h1>Películas y series ilimitadas y mucho más</h1>
                     <h3>Disfruta donde quieras.</h3>
-                    <h4>¿Quieres ver Netflix ya?</h4>
+                    <h4>¿Quieres ver CineFlix ya?</h4>
                     <h4>
                         crea una cuenta
                     </h4>
                     <form id="registro" onsubmit="verificacionRegistro('registro'); return false;">
-                        <input type="email" id="registro-input-email" placeholder="Ingresa tu email..." required />
-                        <input type="text" id="registro-input-usuario" placeholder="Usuario" required />
-                        <input type="password" id="registro-input-contasena" placeholder="Contraseña..." required />
+                        <input type="email" id="registro-input-email" placeholder="Ingresa tu email..."  />
+                        <input type="text" id="registro-input-usuario" placeholder="Usuario"  />
+                        <input type="password" id="registro-input-contasena" placeholder="Contraseña..."  />
                         <button type="submit">Registro</button><br>
-                        <div id="registro-error">Registrate</div>
+                        <div id="registro-error">&nbsp;</div>
+                        <div ><p id="textoUsuario">Usuario 4 a 8 Caracteres</p></div>
+                        <div><p id="text">¿Tenés cuenta? clickea<a href="./pages/LogIn.html">Acá</a></p></div>
                     </form>
 
                 </div>
@@ -172,7 +174,7 @@
             </ul>
         </div>
     </footer>
-    <script src="./data/pelicualas.js"></script>
+    
     <script src="./AccionesJs/fondo-intercambiable.js" charset="utf-8"></script>
     <script src="./AccionesJs/verificacion.js" charset="utf-8"></script>
     <script src="./AccionesJs/darkmodeIndex.js" charset="utf-8"></script>

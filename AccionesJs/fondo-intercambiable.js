@@ -13,6 +13,6 @@ function fondosintercambianbles(imagenes, clase) {
         contenedor.style.backgroundImage = 'url(' + imagenes[indice] + ')';
     }, 4000); // Cambia cada 4 segundos
 };
-console.log(peli)
+
 fondosintercambianbles(banner2, "banner2")
 fondosintercambianbles(banner3, "banner3")

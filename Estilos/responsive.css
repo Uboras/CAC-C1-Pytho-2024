@@ -1,0 +1,39 @@
+
+/* index */
+/* body-main*/
+@media (max-width> 1020px) {
+    .banner {
+        width: 90%;
+        display: block;
+    }
+    .banner1, .banner2, .banner3{
+        margin: 20px auto;
+    }
+
+
+    .textos{
+        width: 100%;
+    }
+}
+
+
+
+/* footer*/
+@media (max-width: 760px) {
+    .banner {
+        width: 90%;
+        display: block;
+    }
+    .banner1, .banner2, .banner3{
+        height: 150px;
+        width: 250px;
+        margin: 10px auto;
+    }
+
+
+    .textos{
+        width: 100%;
+    }
+}
+
+

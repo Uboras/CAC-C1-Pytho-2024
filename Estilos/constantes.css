@@ -21,3 +21,12 @@
     --fondo-color-tercerio:  #e0acc0;
     
 }
+.title{
+    font-weight: 900;
+}
+.subtitle{
+    font-weight: 700;
+}
+.text-bold{
+font-weight: 400;
+}

@@ -4,7 +4,11 @@ const verificaVacio = (contenido) => {
 };
 //auxiliar apra enviarmensajes en el punto de errores
 const ErrorMensaje = (mensaje, form) => {
-  document.getElementById(`${form}-error`).innerHTML = `${mensaje}`;
+  let error = document.getElementById(`${form}-error`);
+  error.style.color= "red";
+  error.style.fontSize = "20px";
+  error.style.fontWeight ="700";
+  error.innerHTML = `${mensaje}`;
 };
 //verificacion de email
 const verificacionEmail = (contenido, form) => {
