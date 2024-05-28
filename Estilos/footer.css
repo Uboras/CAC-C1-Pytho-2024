@@ -57,11 +57,11 @@ footer{
 
 }
 .footer_listas > li {
-    color: var(--color-blanco)
+    color: var(--color-negro)
 }
 .footer_listas > li > a{
     align-items: start;
-    color: var(--color-blanco);
+    color: var(--color-negro);
 }
 .footer_listas > li:nth-child(1){
     font-size: 1.2rem;

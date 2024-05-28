@@ -16,6 +16,9 @@
 --fondo-color-secundario:  #833dc4;
 --fondo-color-tercerio:  #4f000b;
 }
+body{
+    background: var(--color-blanco);
+}
 .title{
     font-weight: 900;
 }

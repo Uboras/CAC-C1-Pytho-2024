@@ -1,5 +1,5 @@
 .main-contacto{
-    background: var(--color-blanco);
+    
     color: var(--color-negro)
 }
 
@@ -9,7 +9,7 @@
     border: 2px solid var(--color-negro);
     border-radius: 8px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 50%;
+    width: 80%;
     min-height: 50vh;
     padding: 20px;
     margin: 20px auto;
