@@ -1,0 +1,25 @@
+.Texto-descriptivo-iframe {
+    box-shadow: 1px 1px 10px var(--color-negro);
+    border: 2px solid var(--color-negro);
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    min-height: 50vh;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: azure;
+}
+
+.Texto-descriptivo-iframe>h1 {
+    margin: 20px auto;
+
+}
+
+.Texto-descriptivo-iframe> iframe {
+    margin: 20px auto;
+   box-shadow:  2px 2px 10px var(--color-negro);;
+   justify-self: center;
+   align-items: center;
+   
+   border-radius: 20px;
+}
