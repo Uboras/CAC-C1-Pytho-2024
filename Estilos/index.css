@@ -1,5 +1,5 @@
 .main-index {
-    color: var(--color-blanco);
+    color: var(--color-negro);
     width: 100%;
     margin: auto;
     
@@ -50,7 +50,7 @@
     color: rgb(224, 138, 25);
     text-align: start;
     border-radius: 10px;
-    background-color: rgba(0,0,0, 0.8);
+    background: linear-gradient( var(--color-blanco)10%, var(--fondo-color-primario)90%);
     opacity: 0;
     animation: 4s tarde 1s ease forwards;
     
