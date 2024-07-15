@@ -1,8 +1,8 @@
 :root{
     /* colores primarios de la pagina en modo oscuro*/
---color-primario:   #b6a2ec;
---color-secundario:  rgb(233, 196, 106 );
---color-tercerio:  rgb(231, 111, 81 );
+--color-primario:   #ccbef1;
+--color-secundario:  rgb(219, 198, 144);
+--color-tercerio:  rgb(233, 168, 152);
 --color-negro: rgb(255, 255, 255);
 --color-blanco: rgb(0, 0, 0);
 

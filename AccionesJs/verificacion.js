@@ -56,11 +56,11 @@ function verificacionRegistro(form) {
     verificacionContrasena(contrasena, form) &&
     verificacionEmail(email, form)
   ) {
-    ErrorMensaje("Registro exitoso", form);
-
-    setTimeout(() => {
-      window.location.href = "./pages/Home.html";
-    }, 2000);
+    const data = {
+      nombre: usuario,
+      contrasena: contrasena
+    };
+    GuardarRegistro(data,form);
   }
 }
 //verificacion Log In
